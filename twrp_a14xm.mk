@@ -18,12 +18,10 @@ $(call inherit-product, device/samsung/a14xm/device.mk)
 PRODUCT_DEVICE := twrp_a14xm
 PRODUCT_NAME := a14xm
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BRAND := Samsung
+PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A146P
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="a14xmxx-user 14 UP1A.231005.007 A146PXXSBDXL1 release-keys" \
-    PRODUCT_DEVICE=a14xm \
-    TARGET_BOOTLOADER_BOARD_NAME=a14xm \
 BUILD_FINGERPRINT := "samsung/a14xmxx/a14xm:14/UP1A.231005.007/A146PXXSBDXL1:user/release-keys"
 
